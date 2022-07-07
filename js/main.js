@@ -33,3 +33,9 @@ const swiper3 = new Swiper(".right", {
         prevEl: ".swiper-button-prev",
     },
 });
+
+// const swiper3 = new Swiper(".recommend_hotel", {
+//     slidesPerView: "auto",
+//     spaceBetween:20,
+// });
+
