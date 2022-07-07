@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>위드펫-web</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/basic.css">
+    <script src="js/prefixfree.dynamic-dom.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script>
+        var UserAgent = navigator.userAgent; 
+            if (UserAgent.match(/iPhone|ipad|Android|Windows CE|BlackBerry|Symbian|Windows Phone|webOS|Opera Mini|Opera Mobi|POLARIS|IEMobile|lgtelecom|nokia|SonyEricsson/i) != null || UserAgent.match(/LG|SAMSUNG|Samsung/) != null)
+            {
+            location.href = "모바일홈주소";    /* 모바일 홈페이지 경로 */
+            }
+    </script>
+    <script defer src="js/main.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header_wrap center">
+            <h1>위드펫</h1>
+            <ul>
+                <li>
+                    <a href="#">국내여행</a>
+                </li>
+                <li>
+                    <a href="#">내주변</a>
+                </li>
+                <li>
+                    <a href="#">추천해줄개</a>
+                </li>
+                <li>
+                    <a href="#">고객센터</a>
+                </li>
+                <li class="login">
+                    <a href="#">로그인</a>
+                </li>
+                <li>
+                    <a href="#">마이페이지</a>
+                </li>
+                <li>
+                    <a href="#">회원가입</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="swiper main_slider">
+        <div class="txt">
+            <p>함께 할 수 있는<br>
+            모든 곳을 한 눈에</p>
+            <h3>위드펫</h3>
+        </div>
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="img/slide.jpg" alt="메인이미지1">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/slide2.jpg" alt="메인이미지2">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/slide3.jpg" alt="메인이미지3">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/slide4.jpg" alt="메인이미지4">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/slide5.jpg" alt="메인이미지5">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/slide6.jpg" alt="메인이미지6">
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+    
+    <div class="menu_bottom">
+        <div class="menu center">
+            <div class="notice">
+                <a href="#">
+                    <img src="img/notice_w_b.png" alt="알립니다">
+                    <span>알려줄개</span>
+                </a>
+            </div>
+            <div class="swiper notice_slide">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <p>국내 인기 여행지 우리집 댕댕이와 함께하세요</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <p>금주 핫플레이스 카페를 만나보세요!</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <p>우리집 댕댕이 자랑하고 숙박권 받아가세요</p>
+                    </div>
+                </div>
+            </div>
+            <div class="search">
+                <input type="text">
+                <img src="img/search.png" alt="검색">
+            </div>
+        </div>
+    </div>
+
+    <section>
+        <article class="article1">
+            <div class="together"></div>
+            <div class="withpet">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="img/restaurant.png" alt="식당">
+                            <span>식당</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/cafe.png" alt="카페">
+                            <span>카페</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/hotel.png" alt="호텔">
+                            <span>호텔</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/camping.png" alt="캠핑장">
+                            <span>캠핑장</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/car.png" alt="렌트카">
+                            <span>렌트카</span>
+                        </a>
+                    </li>
+                </ul>
+                <p>함께 할 수 있는<br>여행을 계획 하고 계신가요?</p>
+            </div>
+            <div class="onlypet">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="img/hospital_pet.png" alt="동물병원">
+                            <span>동물병원</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/kindergarten_pet.png" alt="유치원">
+                            <span>유치원</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/beauty_pet.png" alt="펫미용">
+                            <span>펫미용</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/hotel_pet.png" alt="펫호텔">
+                            <span>펫호텔</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/toy_pet.png" alt="펫용품">
+                            <span>펫용품</span>
+                        </a>
+                    </li>
+                </ul>
+                <p>강아지를 위한<br>장소를 찾고 계신가요?</p>
+            </div>
+        </article>
+
+        <article class="article2 center">
+            <div class="around">
+                <div class="title">
+                    <h2>
+                        <img src="img/point.png" alt="">
+                        <span>내주변</span>
+                        <a href="#">서울시 용산구 한남동</a>
+                    </h2>
+                </div>
+                <ul>
+                    <li>
+                        <a href="#">식당</a>
+                    </li>
+                    <li class="active">
+                        <a href="#">카페</a>
+                    </li>
+                    <li>
+                        <a href="#">호텔</a>
+                    </li>
+                    <li>
+                        <a href="#">캠핑장</a>
+                    </li>
+                    <li>
+                        <a href="#">렌트카</a>
+                    </li>
+                    <li>
+                        <a href="#">동물병원</a>
+                    </li>
+                    <li>
+                        <a href="#">유치원</a>
+                    </li>
+                    <li>
+                        <a href="#">펫미용</a>
+                    </li>
+                    <li>
+                        <a href="#">펫호텔</a>
+                    </li>
+                    <li>
+                        <a href="#">펫용품</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="map"></div>
+        </article>
+
+        <article class="article3 center">
+            <div class="recommend">
+                <div class="title">
+                    <h2>
+                        <img src="img/point.png" alt="">
+                        <span>추천해줄개</span>
+                    </h2>
+                </div>
+                <div class="left">
+                    <div class="left_txt">
+                        <p>눈치보지말고<br>당당하개<br>같이가개</p>
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="#">밥먹으러 같이가개</a>
+                        </li>
+                        <li>
+                            <a href="#">커피한잔 같이하개</a>
+                        </li>
+                        <li class="active">
+                            <a href="#">한방에서 같이자개</a>
+                        </li>
+                        <li>
+                            <a href="#">캠핑하러 같이가개</a>
+                        </li>
+                        <li>
+                            <a href="#">자동차도 같이타개</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="swiper right">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <ul class="hoter_wrap1">
+                                <li class="hotel1">
+                                    <a href="#">
+                                        <img src="img/hotel1.jpg" alt="위드호텔">
+                                        <span class="name">위드 호텔</span>
+                                        <span class="place">서울시 행복구</span>
+                                    </a>
+                                </li>
+                                <li class="hotel3">
+                                    <a href="#">
+                                        <img src="img/hotel3.jpg" alt="천동펜션">
+                                        <span class="name">천동 펜션</span>
+                                        <span class="place">강원도 인제군</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="swiper-slide">
+                            <ul class="hoter_wrap2">
+                                <li class="hotel2"> 
+                                    <a href="#">
+                                        <img src="img/hotel4.jpg" alt="더룸">
+                                        <span class="name">더룸</span>
+                                        <span class="place">제주도 서귀포시</span>
+                                    </a>
+                                </li>
+                                <li class="hotel4">
+                                    <a href="#">
+                                        <img src="img/hotel2.jpg" alt="우프리조트">
+                                        <span class="name">우프 리조트</span>
+                                        <span class="place">제주도 제주시</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="swiper-slide">
+                            <ul class="hoter_wrap1">
+                                <li class="hotel1">
+                                    <a href="#">
+                                        <img src="img/hotel5.jpg" alt="사니 독채펜션">
+                                        <span class="name">사니 독채펜션</span>
+                                        <span class="place">경상남도 남해군</span>
+                                    </a>
+                                </li>
+                                <li class="hotel3">
+                                    <a href="#">
+                                        <img src="img/hotel6.jpg" alt="한리조트">
+                                        <span class="name">한리조트</span>
+                                        <span class="place">경상남도 통영시</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="swiper-slide">
+                            <ul class="hoter_wrap2">
+                                <li class="hotel2"> 
+                                    <a href="#">
+                                        <img src="img/hotel7.jpg" alt="더룸">
+                                        <span class="name">비니하우스</span>
+                                        <span class="place">서울시 성북구</span>
+                                    </a>
+                                </li>
+                                <li class="hotel4">
+                                    <a href="#">
+                                        <img src="img/hotel8.jpg" alt="우프리조트">
+                                        <span class="name">안나 호텔</span>
+                                        <span class="place">제주도 서귀포시</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </article>
+
+        <article class="article4 center">
+            <div class="title">
+                <h2>
+                    <img src="img/point.png" alt="">
+                    <span>인기여행지</span>
+                </h2>
+            </div>
+            <div class="tourist">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="img/jeju.jpg" alt="제주도">
+                            <span class="bg"></span>
+                            <span class="tourist_title">제주도</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/gangwon-do.jpg" alt="강원도">
+                            <span class="bg"></span>
+                            <span class="tourist_title">강원도</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/busan.jpg" alt="부산">
+                            <span class="bg"></span>
+                            <span class="tourist_title">부산</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/seoul.jpg" alt="서울">
+                            <span class="bg"></span>
+                            <span class="tourist_title">서울</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/gyeongju.jpg" alt="경주">
+                            <span class="bg"></span>
+                            <span class="tourist_title">경주</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/jeonju.jpg" alt="전주">
+                            <span class="bg"></span>
+                            <span class="tourist_title">전주</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </article>
+    </section>
+
+    <footer>
+        <div class="footer_wrap center">
+            <h1>
+                <a href="">위드펫</a>
+            </h1>
+            <div class="footer_left">
+                <ul class="left_top">
+                    <li>
+                        <a href="">위드펫 소개</a>
+                    </li>
+                    <li>
+                        <a href="">위드펫 이용약관</a>
+                    </li>
+                    <li>
+                        <a href=""><strong>개인정보처리방침</strong></a>
+                    </li>
+                    <li>
+                        <a href="">운영정책</a>
+                    </li>
+                    <li>
+                        <a href="">광고문의</a>
+                    </li>
+                </ul>
+                <div class="left_bottom">
+                    <p>서울시 행복구 멍멍동 12-34 위드빌딩 5층</p>
+                    <p>copyright 2022. WithPET. All rights reserved.</p>
+                </div>
+            </div>
+            <div class="footer_right">
+                <p>
+                    <span>고객센터 : 1234-1234</span>
+                    <span>평일 : 9:00 - 18:00<br>주말 및 공휴일 휴무</span>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+</html>
