@@ -39,3 +39,24 @@ const swiper3 = new Swiper(".right", {
 //     spaceBetween:20,
 // });
 
+//추천해줄개 tab
+const tabBtn1 = document.querySelectorAll('.recommend .tabs_menu li');
+const tabBd1 = document.querySelectorAll('.recommend .tabs_body > div');
+console.log(tabBd1);
+
+tabBtn1.forEach(function(item,index){
+    item.onclick = function(e){
+        e.preventDefault();
+        for(let i = 0; i < tabBtn1.length; i++){
+            tabBtn1[i].classList.remove('active');
+            tabBd1[i].style.display = 'none';
+        }
+
+        item.classList.add('active');
+        tabBd1[index].style.display = 'block';
+
+        // tabBtn[num].classList.remove('on');
+        // this.classList.add('on');
+        // num = bb;
+    };
+})

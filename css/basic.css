@@ -349,7 +349,12 @@ background:#4483BF;
     color:#fff;
 }
 
-.article3 .right_wrap {}
+.article3 .recommend .tabs_body > div {
+    display:none;
+}
+.article3 .recommend .tabs_body > div.food {
+    display:block;
+}
 .article3 .right {
     position:absolute;
     top:0;
@@ -372,7 +377,7 @@ background:#4483BF;
     padding:20px 0;
     margin-bottom:20px;
 }
-.right li.hotel3, .right li.hotel4 {
+.right li.list3, .right li.list4 {
     margin-bottom:0;
 }
 .right a {
